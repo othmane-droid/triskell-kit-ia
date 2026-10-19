@@ -1,0 +1,530 @@
+{
+ "ao": {
+  "acheteur": "Groupe Hélianthe Industrie (fictif)",
+  "reference": "Consultation n° HI-2026-014",
+  "objet": "Solution de gestion de portefeuille de projets (PPM) — DOCUMENT FICTIF",
+  "date_limite": "vendredi 13/11/2026, 12h00",
+  "date_questions": "30/10/2026, par écrit uniquement",
+  "criteres": [
+   {
+    "critere": "Valeur technique",
+    "poids": 50
+   },
+   {
+    "critere": "Prix",
+    "poids": 35
+   },
+   {
+    "critere": "Qualité de l'accompagnement",
+    "poids": 15
+   }
+  ],
+  "documents_triskell": [
+   "Base de réponses sécurité (fictive, éditeur « Nova Software », validée le 15/06/2026)"
+  ],
+  "date_analyse": "19/10/2026",
+  "avertissement": "Données fictives. Seules les réponses sourcées sont rédigées ; le reste est « [à compléter] ». Retirer la colonne « Commentaire interne » avant tout envoi."
+ },
+ "exigences": [
+  {
+   "id": "EX-01",
+   "niveau": "Obligatoire",
+   "exigence": "La solution doit permettre de centraliser l'ensemble des demandes de projets avec un circuit de validation paramétrable.",
+   "emplacement": "p. 2",
+   "categorie": "Fonctionnel",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-02",
+   "niveau": "Obligatoire",
+   "exigence": "La solution doit permettre de prioriser les projets selon des critères pondérés définis par le client (valeur, risque, alignement stratégique).",
+   "emplacement": "p. 2",
+   "categorie": "Fonctionnel",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-03",
+   "niveau": "Obligatoire",
+   "exigence": "La solution doit offrir une vue consolidée du portefeuille : budget, avancement, risques, par direction et par site.",
+   "emplacement": "p. 2",
+   "categorie": "Fonctionnel",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-04",
+   "niveau": "Souhaité",
+   "exigence": "Une simulation de scénarios de portefeuille (arbitrage entre projets) est souhaitée.",
+   "emplacement": "p. 2",
+   "categorie": "Fonctionnel",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-05",
+   "niveau": "Obligatoire",
+   "exigence": "La gestion des ressources doit permettre de visualiser la charge et la capacité par compétence.",
+   "emplacement": "p. 2",
+   "categorie": "Fonctionnel",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-06",
+   "niveau": "Souhaité",
+   "exigence": "La saisie des temps par les collaborateurs est souhaitée, avec validation par le manager.",
+   "emplacement": "p. 2",
+   "categorie": "Fonctionnel",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-07",
+   "niveau": "Obligatoire",
+   "exigence": "Suivi des budgets prévus, engagés et réalisés, par projet et par exercice.",
+   "emplacement": "p. 3",
+   "categorie": "Finance",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-08",
+   "niveau": "Obligatoire",
+   "exigence": "Gestion multi-devises (euro, et dollar américain pour deux projets).",
+   "emplacement": "p. 3",
+   "categorie": "Finance",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-09",
+   "niveau": "Souhaité",
+   "exigence": "Interface avec l'ERP financier du groupe (SAP S/4HANA) pour la remontée des coûts réels.",
+   "emplacement": "p. 3",
+   "categorie": "Finance",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": "Interface SAP S/4HANA : connecteur existant ou projet d'intégration ? À vérifier avec l'avant-vente."
+  },
+  {
+   "id": "EX-10",
+   "niveau": "Obligatoire",
+   "exigence": "Export des données financières au format Excel.",
+   "emplacement": "p. 3",
+   "categorie": "Finance",
+   "reponse": "[à compléter] La base jointe ne mentionne qu'un export complet des données en CSV et JSON (réversibilité) : l'export des données financières au format Excel reste à confirmer.",
+   "statut": "À vérifier",
+   "source": "Base de réponses sécurité (fictive), § 13 Réversibilité (partiel, à confirmer)",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-11",
+   "niveau": "Obligatoire",
+   "exigence": "Tableaux de bord paramétrables par les utilisateurs, sans développement.",
+   "emplacement": "p. 4",
+   "categorie": "Reporting",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-12",
+   "niveau": "Obligatoire",
+   "exigence": "Génération automatique d'un rapport mensuel du portefeuille pour le comité de direction.",
+   "emplacement": "p. 4",
+   "categorie": "Reporting",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-13",
+   "niveau": "Souhaité",
+   "exigence": "Indicateurs de santé des projets (météo) calculés automatiquement.",
+   "emplacement": "p. 4",
+   "categorie": "Reporting",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-14",
+   "niveau": "Souhaité",
+   "exigence": "Fonctions d'aide à la rédaction ou d'analyse fondées sur l'intelligence artificielle, sous réserve de garanties sur la confidentialité des données.",
+   "emplacement": "p. 4",
+   "categorie": "Reporting",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "Avant-vente",
+   "commentaire_interne": "Fonctions IA : ne rien affirmer sans document produit validé ; garanties de confidentialité à décrire par le RSSI."
+  },
+  {
+   "id": "EX-15",
+   "niveau": "Obligatoire",
+   "exigence": "Solution en mode SaaS, hébergée dans l'Union européenne.",
+   "emplacement": "p. 5",
+   "categorie": "Technique & sécurité",
+   "reponse": "La solution est une plateforme SaaS. Les données sont hébergées chez un fournisseur cloud certifié ISO 27001, en France (région Paris), avec une réplication sur un second datacenter en France. Aucune donnée n'est stockée ni consultée hors de l'Union européenne.",
+   "statut": "Couvert",
+   "source": "Base de réponses sécurité (fictive), § 1 Hébergement et § 2 Certifications",
+   "piece": "",
+   "responsable": "RSSI / Architecte",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-16",
+   "niveau": "Obligatoire",
+   "exigence": "Authentification unique (SSO) avec Microsoft Entra ID.",
+   "emplacement": "p. 5",
+   "categorie": "Technique & sécurité",
+   "reponse": "L'authentification unique est assurée via SAML 2.0, compatible Microsoft Entra ID, Okta et Google Workspace. L'authentification multifacteur est disponible et peut être imposée par l'administrateur client.",
+   "statut": "Couvert",
+   "source": "Base de réponses sécurité (fictive), § 6 Authentification",
+   "piece": "",
+   "responsable": "RSSI / Architecte",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-17",
+   "niveau": "Obligatoire",
+   "exigence": "Gestion fine des droits d'accès par profil, par projet et par entité.",
+   "emplacement": "p. 5",
+   "categorie": "Technique & sécurité",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "RSSI / Architecte",
+   "commentaire_interne": "La base jointe ne couvre que les accès internes de l'éditeur (§ 7), pas les droits des utilisateurs clients."
+  },
+  {
+   "id": "EX-18",
+   "niveau": "Obligatoire",
+   "exigence": "Conformité au RGPD, avec un accord de traitement des données signé.",
+   "emplacement": "p. 5",
+   "categorie": "Technique & sécurité",
+   "reponse": "Un DPO est désigné. Un accord de sous-traitance (DPA) conforme à l'article 28 du RGPD est annexé au contrat ; la liste des sous-traitants ultérieurs figure en annexe du DPA et est tenue à jour.",
+   "statut": "Couvert",
+   "source": "Base de réponses sécurité (fictive), § 9 RGPD",
+   "piece": "Modèle de DPA à joindre",
+   "responsable": "RSSI / Architecte",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-19",
+   "niveau": "Souhaité",
+   "exigence": "Certification ISO 27001 du prestataire ou de son hébergeur.",
+   "emplacement": "p. 5",
+   "categorie": "Technique & sécurité",
+   "reponse": "L'éditeur est certifié ISO 27001 depuis mai 2025, sur le périmètre « conception, développement, hébergement et support de la plateforme SaaS », avec un audit de surveillance annuel. L'hébergeur est également certifié ISO 27001.",
+   "statut": "Couvert",
+   "source": "Base de réponses sécurité (fictive), § 2 Certifications et § 1 Hébergement",
+   "piece": "Certificat ISO 27001 en vigueur",
+   "responsable": "RSSI / Architecte",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-20",
+   "niveau": "Obligatoire",
+   "exigence": "Disponibilité de la solution d'au moins 99,5 % par mois.",
+   "emplacement": "p. 5",
+   "categorie": "Technique & sécurité",
+   "reponse": "Engagement contractuel de disponibilité de 99,5 % par mois, hors maintenances planifiées annoncées 5 jours ouvrés à l'avance.",
+   "statut": "Partiel",
+   "source": "Base de réponses sécurité (fictive), § 5 Disponibilité",
+   "piece": "",
+   "responsable": "RSSI / Architecte",
+   "commentaire_interne": "Écart : l'AO ne prévoit pas d'exclusion des maintenances planifiées. Question posée à l'acheteur (Q1)."
+  },
+  {
+   "id": "EX-21",
+   "niveau": "Souhaité",
+   "exigence": "API documentée permettant d'alimenter l'entrepôt de données du groupe.",
+   "emplacement": "p. 5",
+   "categorie": "Technique & sécurité",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "RSSI / Architecte",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-22",
+   "niveau": "Obligatoire",
+   "exigence": "Un planning de déploiement détaillé, avec une mise en service sur un premier périmètre pilote au plus tard le 1er février 2027.",
+   "emplacement": "p. 6",
+   "categorie": "Déploiement",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "DSC",
+   "commentaire_interne": "Pilote au plus tard le 01/02/2027 : faisabilité à valider par la DSC (lancement probable en décembre ou janvier)."
+  },
+  {
+   "id": "EX-23",
+   "niveau": "Obligatoire",
+   "exigence": "La reprise des données des projets en cours depuis les fichiers Excel existants.",
+   "emplacement": "p. 6",
+   "categorie": "Déploiement",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "DSC",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-24",
+   "niveau": "Obligatoire",
+   "exigence": "Une formation des administrateurs et des chefs de projet, en français et en espagnol.",
+   "emplacement": "p. 6",
+   "categorie": "Déploiement",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "DSC",
+   "commentaire_interne": "Obligatoire : formation en espagnol. Capacité à vérifier avant le go (formateur hispanophone, supports ES)."
+  },
+  {
+   "id": "EX-25",
+   "niveau": "Souhaité",
+   "exigence": "Un support en français et en espagnol, joignable de 8h à 18h.",
+   "emplacement": "p. 6",
+   "categorie": "Déploiement",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "DSC",
+   "commentaire_interne": "Support en espagnol : capacité à vérifier."
+  },
+  {
+   "id": "EX-26",
+   "niveau": "Obligatoire",
+   "exigence": "Un interlocuteur unique côté prestataire pendant toute la durée du déploiement.",
+   "emplacement": "p. 6",
+   "categorie": "Déploiement",
+   "reponse": "[à compléter]",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "",
+   "responsable": "DSC",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-27",
+   "niveau": "Obligatoire",
+   "exigence": "La réponse doit comporter un mémoire technique de 30 pages maximum.",
+   "emplacement": "p. 7",
+   "categorie": "Modalités de réponse",
+   "reponse": "Pièce à produire : Mémoire technique ≤ 30 pages",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "Mémoire technique ≤ 30 pages",
+   "responsable": "DC",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-28",
+   "niveau": "Obligatoire",
+   "exigence": "La réponse doit inclure une matrice de conformité reprenant chaque exigence numérotée.",
+   "emplacement": "p. 7",
+   "categorie": "Modalités de réponse",
+   "reponse": "Pièce à produire : Cette matrice (version client, sans la colonne interne)",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "Cette matrice (version client, sans la colonne interne)",
+   "responsable": "DC",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-29",
+   "niveau": "Obligatoire",
+   "exigence": "La proposition financière doit distinguer les coûts de licence, de mise en œuvre et de maintenance sur 3 ans.",
+   "emplacement": "p. 7",
+   "categorie": "Modalités de réponse",
+   "reponse": "Pièce à produire : Proposition financière : licence / mise en œuvre / maintenance sur 3 ans",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "Proposition financière : licence / mise en œuvre / maintenance sur 3 ans",
+   "responsable": "DC",
+   "commentaire_interne": ""
+  },
+  {
+   "id": "EX-30",
+   "niveau": "Souhaité",
+   "exigence": "Deux références clients dans l'industrie, de taille comparable, sont souhaitées.",
+   "emplacement": "p. 7",
+   "categorie": "Modalités de réponse",
+   "reponse": "[à compléter] Références à fournir par la DC.",
+   "statut": "À vérifier",
+   "source": "",
+   "piece": "2 fiches références",
+   "responsable": "DC",
+   "commentaire_interne": "Références industrie de taille comparable : à choisir par la DC, avec accord écrit des clients cités."
+  }
+ ],
+ "questions": [
+  {
+   "exigence": "EX-20",
+   "question": "Le taux de disponibilité de 99,5 % par mois s'entend-il hors maintenances planifiées annoncées à l'avance ?",
+   "pourquoi": "Notre engagement exclut les maintenances planifiées : statut Partiel tant que ce n'est pas clarifié."
+  },
+  {
+   "exigence": "EX-24 / EX-25",
+   "question": "Combien d'administrateurs et de chefs de projet sont à former en espagnol, et sur quels sites ? Le support en espagnol concerne-t-il tous les utilisateurs des sites espagnols ?",
+   "pourquoi": "Dimensionne la formation et le support en espagnol (exigence obligatoire)."
+  },
+  {
+   "exigence": "EX-22",
+   "question": "Quel périmètre envisagez-vous pour le pilote du 1er février 2027 (site, nombre d'utilisateurs, processus) ?",
+   "pourquoi": "Conditionne le planning et le chiffrage de la mise en œuvre."
+  },
+  {
+   "exigence": "EX-23",
+   "question": "Combien de projets en cours seront à reprendre, et les fichiers Excel suivent-ils un modèle commun ?",
+   "pourquoi": "La reprise de données est souvent le premier poste de risque du planning."
+  },
+  {
+   "exigence": "EX-29",
+   "question": "Combien d'utilisateurs faut-il chiffrer par profil (chefs de projet, directeurs de programme, comité de direction, contributeurs éventuels) ?",
+   "pourquoi": "Le CDC donne « environ 60 » et « 15 » : sans chiffre ferme, la proposition financière n'est pas comparable."
+  },
+  {
+   "exigence": "EX-09",
+   "question": "L'interface avec SAP S/4HANA porte-t-elle uniquement sur la remontée des coûts réels, à quelle fréquence, et par quel moyen d'échange (API, fichiers) ?",
+   "pourquoi": "Fixe la charge d'intégration (exigence souhaitée mais coûteuse)."
+  },
+  {
+   "exigence": "EX-14",
+   "question": "Quelles garanties de confidentialité attendez-vous pour les fonctions d'IA (lieu de traitement, non-réutilisation des données, possibilité de désactivation) ?",
+   "pourquoi": "Permet de répondre précisément plutôt que de façon générale."
+  },
+  {
+   "exigence": "Critères",
+   "question": "La valeur technique (50 %) est-elle décomposée en sous-critères, et une soutenance orale est-elle prévue ?",
+   "pourquoi": "Oriente la répartition des 30 pages du mémoire technique."
+  }
+ ],
+ "go_no_go": {
+  "criteres": [
+   {
+    "critere": "Couverture des exigences obligatoires (21)",
+    "poids": 3,
+    "note": null,
+    "justification": "4 couvertes, 1 partielle, 25 à vérifier : le fonctionnel reste à qualifier avec une base de réponses fonctionnelles (non jointe)."
+   },
+   {
+    "critere": "Capacité à tenir le planning (pilote au 01/02/2027)",
+    "poids": 2,
+    "note": null,
+    "justification": "À évaluer par la DSC (staffing disponible dès décembre ?)."
+   },
+   {
+    "critere": "Formation et support en espagnol (EX-24 obligatoire)",
+    "poids": 2,
+    "note": null,
+    "justification": "Capacité non documentée dans les pièces jointes."
+   },
+   {
+    "critere": "Références industrie de taille comparable",
+    "poids": 1,
+    "note": null,
+    "justification": "À choisir par la DC."
+   },
+   {
+    "critere": "Connaissance du client et du besoin (échanges avant l'AO)",
+    "poids": 2,
+    "note": null,
+    "justification": "Non renseigné dans le dossier."
+   },
+   {
+    "critere": "Effort de réponse vs délai (25 jours, mémoire 30 p.)",
+    "poids": 1,
+    "note": null,
+    "justification": "Remise le 13/11/2026 12h00 ; questions jusqu'au 30/10/2026."
+   },
+   {
+    "critere": "Intérêt stratégique (secteur industrie, 1 800 collaborateurs, 2 pays)",
+    "poids": 1,
+    "note": null,
+    "justification": "À apprécier par la direction."
+   }
+  ],
+  "eliminatoires": [
+   {
+    "critere": "Hébergement SaaS dans l'UE (EX-15)",
+    "statut": "Levé",
+    "commentaire": "Couvert par la base de réponses § 1."
+   },
+   {
+    "critere": "SSO Microsoft Entra ID (EX-16)",
+    "statut": "Levé",
+    "commentaire": "Couvert par la base de réponses § 6."
+   },
+   {
+    "critere": "Formation en espagnol (EX-24)",
+    "statut": "À vérifier",
+    "commentaire": "Bloquant si aucune capacité hispanophone."
+   },
+   {
+    "critere": "Remise avant le 13/11/2026 12h00",
+    "statut": "À vérifier",
+    "commentaire": "Équipe de réponse à nommer."
+   }
+  ]
+ }
+}

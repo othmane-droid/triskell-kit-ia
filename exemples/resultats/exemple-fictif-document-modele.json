@@ -1,0 +1,19 @@
+{
+  "garder_a_partir_de": "[Lieu], le [date]",
+  "remplacements": [
+    {"paragraphe": 13, "cherche": "[Lieu]", "remplace": "[à préciser : lieu]"},
+    {"paragraphe": 13, "cherche": "[date]", "remplace": "[à préciser : date d'envoi]"},
+    {"paragraphe": 14, "cherche": "[reprendre l'objet du courrier reçu]", "remplace": "Demande de précisions sur votre offre et sur les conditions de déploiement"},
+    {"paragraphe": 15, "cherche": "[Nom]", "remplace": "Moreau"},
+    {"paragraphe": 16, "cherche": "[rappel de la demande en une phrase]", "remplace": "votre courrier du 5 octobre 2026, par lequel votre comité nous demande des précisions sur trois points de notre offre pour la solution de gestion de portefeuille de projets"},
+    {"paragraphe": 18, "cherche": "[Point 1 — titre]", "remplace": "1. Durée du déploiement et site pilote"},
+    {"paragraphe": 18, "cherche": "[réponse en 2 à 4 lignes]", "remplace": "Le déploiement sur vos 4 sites français est prévu sur 10 à 12 semaines. Il peut démarrer par un site pilote, d'une durée de 4 semaines."},
+    {"paragraphe": 19, "cherche": "[Point 2 — titre]", "remplace": "2. Formation des utilisateurs"},
+    {"paragraphe": 19, "cherche": "[réponse]", "remplace": "Nous prévoyons 3 sessions de 2 heures à distance pour chaque profil : administrateurs, chefs de projet et direction. Un support PDF est remis aux participants et les replays des sessions sont disponibles."},
+    {"paragraphe": 20, "cherche": "[Point 3 — titre]", "remplace": "3. Réversibilité des données"},
+    {"paragraphe": 20, "cherche": "[réponse]", "remplace": "Vos données peuvent être exportées intégralement, à tout moment, aux formats Excel et CSV. En fin de contrat, cet export vous est remis sur demande sous 30 jours."},
+    {"paragraphe": 23, "cherche": "[Prénom Nom]", "remplace": "[à préciser : prénom et nom du signataire]"},
+    {"paragraphe": 23, "cherche": "[Fonction]", "remplace": "[à préciser : fonction]"}
+  ],
+  "interdits": []
+}

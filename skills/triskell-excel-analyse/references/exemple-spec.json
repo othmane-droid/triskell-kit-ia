@@ -1,0 +1,46 @@
+{
+  "titre": "Consommation des jours vendus par projet (FICTIF)",
+  "sous_titre": "Données fictives. Copie de travail du 19/10/2026 : les feuilles d'origine (Lisez-moi, Temps, Budget) sont inchangées.",
+  "feuille": "Temps",
+  "ligne_entete": 1,
+  "date_reference": "19/10/2026",
+  "decisions": [
+    {"id": "D1", "colonne": "Projet", "action": "supprimer_espaces", "motif": "espace en fin de nom"},
+    {"id": "D2", "colonne": "Projet", "action": "remplacer", "valeurs": {"alpha - déploiement": "Alpha - Déploiement"}, "motif": "casse différente du nom de la feuille Budget"},
+    {"id": "D3", "colonne": "Date", "action": "texte_en_date", "format": "%d/%m/%Y", "motif": "date saisie en texte"},
+    {"id": "D4", "colonne": "Heures", "action": "texte_en_nombre", "motif": "nombre saisi en texte (virgule)"},
+    {"id": "D5", "colonne": "Facturable", "action": "remplacer", "valeurs": {"oui": "Oui", "O": "Oui"}, "motif": "variantes de « Oui » (O = Oui : à confirmer)"},
+    {"id": "D6", "action": "supprimer_doublons_exacts", "motif": "ligne identique en tous points à la précédente"},
+    {"id": "D7", "colonne": "Heures", "action": "signaler", "condition": "<0", "message": "heures négatives : correction de saisie ? à vérifier"},
+    {"id": "D8", "colonne": "Heures", "action": "signaler", "condition": ">12", "message": "plus de 12 h sur une journée : 7,5 tapé 75 ? à vérifier"},
+    {"id": "D9", "colonne": "Projet", "action": "signaler", "condition": "vide", "message": "projet manquant (client Banque Orion) : à rattacher"},
+    {"id": "D10", "colonne": "Date", "action": "signaler", "condition": "futur", "message": "saisie datée après le 19/10/2026 : prévisionnel ?"}
+  ],
+  "indicateurs": [
+    {"libelle": "Heures saisies retenues jusqu'au 19/10", "valeur": 325.5, "source": "Données nettoyées, hors lignes signalées"},
+    {"libelle": "Heures datées après le 19/10 (non retenues)", "valeur": 47.0, "source": "Décision D10"},
+    {"libelle": "Lignes signalées à vérifier", "valeur": 14, "source": "Colonne Contrôle"},
+    {"libelle": "Projets au-delà des jours vendus", "valeur": "2 sur 4", "source": "Tableau ci-dessous"}
+  ],
+  "syntheses": [
+    {"titre": "Jours consommés au 19/10 vs jours vendus", "type": "tableau",
+     "colonnes": ["Projet", "Jours vendus", "Jours consommés au 19/10", "Consommation (%)"],
+     "lignes": [["Valbourg - Formation", 8, 9.36, 117], ["Alpha - Déploiement", 20, 20.57, 103], ["Orion - Paramétrage", 15, 7.5, 50], ["Hélianthe - Pilote", 25, 9.07, 36]],
+     "graphique": "barres", "series": [2, 3],
+     "note": "Jours consommés = heures retenues / 7 (hypothèse 1 jour = 7 h, à confirmer). Toutes les heures comptent, facturables ou non."},
+    {"titre": "Heures retenues par projet", "type": "pivot", "index": "Projet", "valeur": "Heures", "agg": "somme",
+     "libelle_valeur": "Heures (hors lignes signalées)", "exclure_signalees": true, "graphique": "barres", "horizontal": true},
+    {"titre": "Heures retenues par activité", "type": "pivot", "index": "Activité", "valeur": "Heures", "agg": "somme",
+     "libelle_valeur": "Heures", "exclure_signalees": true, "graphique": "camembert"}
+  ],
+  "hypotheses": [
+    "1 jour vendu (jrsH) = 7 heures saisies : à confirmer par la DSC.",
+    "Les heures non facturables consomment aussi le budget du projet : à confirmer.",
+    "Les 11 saisies datées après le 19/10 ne sont pas comptées (prévisionnel probable)."
+  ],
+  "conclusions": [
+    "Valbourg - Formation dépasse ses jours vendus de 17 % et Alpha - Déploiement de 3 %, avant même les saisies prévues après le 19/10.",
+    "Avec les saisies datées après le 19/10, Alpha atteindrait 114 % et Valbourg 123 %.",
+    "Hélianthe - Pilote (36 %) et Orion - Paramétrage (50 %) restent dans leur budget ; les lignes signalées (75 h sur Hélianthe, projet manquant chez Banque Orion) ne changent pas ce constat : Hélianthe passerait à 41 % si 75 h valait 7,5 h."
+  ]
+}

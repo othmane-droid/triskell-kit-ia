@@ -1,6 +1,6 @@
 ---
 name: triskell-kickoff-dc-dsc
-description: Prépare le kick-off interne TSF « Transition de la DC vers la DSC » : à partir de la proposition commerciale, du bon de commande, des comptes rendus et des mails du cycle de vente, remplit la fiche de passation, croise les chiffres (licences, jrsH, échéancier, GEPIL), calcule le verdict GO Projet, produit la présentation dans le modèle officiel Triskell et le registre des informations manquantes par équipe. À utiliser dès qu'on parle de kick-off interne, de passation commerciale, de transition DC vers DSC, de « GO Projet », ou qu'un deal vient d'être signé et doit passer en projet.
+description: "Prépare le kick-off interne TSF « Transition de la DC vers la DSC » : à partir de la proposition commerciale, du bon de commande, des comptes rendus et des mails du cycle de vente, remplit la fiche de passation, croise les chiffres (licences, jrsH, échéancier, GEPIL), calcule le verdict GO Projet, produit la présentation dans le modèle officiel Triskell et le registre des informations manquantes par équipe. À utiliser dès qu'on parle de kick-off interne, de passation commerciale, de transition DC vers DSC, de « GO Projet », ou qu'un deal vient d'être signé et doit passer en projet."
 ---
 
 # Kick-off interne TSF : la passation DC → DSC sans perte d'information
