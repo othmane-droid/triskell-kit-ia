@@ -1,0 +1,131 @@
+{
+  "recette": "formation-atelier",
+  "usage": "Support de formation ou d'atelier",
+  "duree": "2 h",
+  "public": "Collaborateurs ou utilisateurs clients",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Formation",
+      "title": "À ÉCRIRE : titre de la présentation",
+      "date_version": null,
+      "client_name": null
+    },
+    {
+      "type": "bullets",
+      "title": "Les objectifs de la séance",
+      "groups": [
+        {
+          "heading": "À la fin, vous saurez",
+          "items": [
+            null,
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "type": "agenda",
+      "items": [
+        {
+          "label": null,
+          "time": null
+        },
+        {
+          "label": null,
+          "time": null
+        },
+        {
+          "label": null,
+          "time": null
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": 1,
+      "title": "Comprendre"
+    },
+    {
+      "type": "steps",
+      "title": "À ÉCRIRE : la méthode en étapes",
+      "steps": [
+        {
+          "title": null,
+          "text": null
+        },
+        {
+          "title": null,
+          "text": null
+        },
+        {
+          "title": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "before_after",
+      "title": "À ÉCRIRE : le bon et le mauvais réflexe",
+      "before": {
+        "label": "À éviter",
+        "title": null,
+        "items": [
+          null,
+          null
+        ]
+      },
+      "after": {
+        "label": "À faire",
+        "title": null,
+        "items": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "number": 2,
+      "title": "Pratiquer"
+    },
+    {
+      "type": "cards",
+      "title": "Les exercices",
+      "cards": [
+        {
+          "kicker": "Exercice 1",
+          "title": null,
+          "text": null
+        },
+        {
+          "kicker": "Exercice 2",
+          "title": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "title": "Ce que vous savez faire maintenant",
+      "items": [
+        {
+          "question": null,
+          "status": null
+        },
+        {
+          "question": null,
+          "status": null
+        }
+      ],
+      "verdict": false
+    },
+    {
+      "type": "closing",
+      "contact": null
+    }
+  ],
+  "title": null,
+  "author": "Triskell Software France"
+}

@@ -1,0 +1,178 @@
+{
+  "recette": "copil",
+  "usage": "Comité de pilotage d'un projet en cours",
+  "duree": "1 h",
+  "public": "Sponsor, direction, chefs de projet",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Comité de pilotage",
+      "title": "À ÉCRIRE : titre de la présentation",
+      "date_version": null,
+      "client_name": null
+    },
+    {
+      "type": "summary",
+      "title": "La météo du projet",
+      "messages": [
+        {
+          "title": "À ÉCRIRE : où en est le projet (avancement, en une phrase)",
+          "text": null
+        },
+        {
+          "title": "À ÉCRIRE : ce qui va bien",
+          "text": null
+        },
+        {
+          "title": "À ÉCRIRE : ce qui bloque",
+          "text": null
+        }
+      ],
+      "decision": {
+        "label": "Décisions attendues",
+        "text": "À ÉCRIRE : la décision principale",
+        "options": []
+      }
+    },
+    {
+      "type": "agenda",
+      "items": [
+        "Avancement",
+        "Points d'attention",
+        "Décisions",
+        "Prochaines étapes"
+      ]
+    },
+    {
+      "type": "section",
+      "number": 1,
+      "title": "Avancement"
+    },
+    {
+      "type": "kpis",
+      "title": "À ÉCRIRE : titre-message sur l'avancement",
+      "kpis": [
+        {
+          "value": null,
+          "label": "avancement global"
+        },
+        {
+          "value": null,
+          "label": "jalons tenus"
+        },
+        {
+          "value": null,
+          "label": "charge consommée"
+        }
+      ],
+      "source": "GEPIL"
+    },
+    {
+      "type": "timeline",
+      "title": "À ÉCRIRE : les jalons : tenus, en cours, à venir",
+      "milestones": [
+        {
+          "date": null,
+          "label": null,
+          "done": true
+        },
+        {
+          "date": null,
+          "label": null,
+          "current": true
+        },
+        {
+          "date": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": 2,
+      "title": "Points d'attention"
+    },
+    {
+      "type": "table",
+      "title": "Risques et points d'attention",
+      "columns": [
+        "Risque",
+        "Impact",
+        "Probabilité",
+        "Action",
+        "Porteur"
+      ],
+      "rows": [
+        [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ],
+      "col_widths": [
+        4,
+        1.4,
+        1.4,
+        4,
+        1.6
+      ]
+    },
+    {
+      "type": "section",
+      "number": 3,
+      "title": "Décisions"
+    },
+    {
+      "type": "cards",
+      "title": "À ÉCRIRE : les options sur la table",
+      "cards": [
+        {
+          "kicker": "Option A",
+          "title": null,
+          "text": null
+        },
+        {
+          "kicker": "Option B",
+          "title": null,
+          "text": null,
+          "highlight": true,
+          "badge": "Recommandée"
+        }
+      ]
+    },
+    {
+      "type": "actions",
+      "title": "Actions décidées",
+      "teams": [
+        {
+          "team": "Client",
+          "actions": [
+            {
+              "action": null,
+              "owner": null,
+              "due": null
+            }
+          ]
+        },
+        {
+          "team": "Triskell",
+          "actions": [
+            {
+              "action": null,
+              "owner": null,
+              "due": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "closing",
+      "contact": null
+    }
+  ],
+  "title": null,
+  "author": "Triskell Software France"
+}

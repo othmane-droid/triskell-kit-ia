@@ -1,0 +1,304 @@
+{
+  "recette": "proposition-commerciale",
+  "usage": "Soutenance ou envoi d'une proposition à un prospect",
+  "duree": "45 min",
+  "public": "Client : sponsor, PMO, achats",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Proposition d'accompagnement",
+      "title": "À ÉCRIRE : titre de la présentation",
+      "date_version": null,
+      "client_name": null
+    },
+    {
+      "type": "summary",
+      "title": "L'essentiel en une page",
+      "messages": [
+        {
+          "title": "À ÉCRIRE : le problème du client, chiffré",
+          "text": null
+        },
+        {
+          "title": "À ÉCRIRE : ce que nous proposons",
+          "text": null
+        },
+        {
+          "title": "À ÉCRIRE : le résultat attendu et sa date",
+          "text": null
+        }
+      ],
+      "decision": {
+        "text": "À ÉCRIRE : la décision demandée",
+        "options": []
+      },
+      "_guide": "La slide que le sponsor doit pouvoir lire seule."
+    },
+    {
+      "type": "agenda",
+      "items": [
+        "Votre situation",
+        "Notre proposition",
+        "Démarche et planning",
+        "Investissement",
+        "Prochaines étapes"
+      ]
+    },
+    {
+      "type": "section",
+      "number": 1,
+      "title": "Votre situation"
+    },
+    {
+      "type": "statement",
+      "title": "Le constat",
+      "text": "À ÉCRIRE : le constat en une phrase, **un chiffre** en orange",
+      "support": null,
+      "source": null,
+      "_guide": "Reprendre les mots du client entendus en découverte."
+    },
+    {
+      "type": "kpis",
+      "title": "À ÉCRIRE : titre-message sur l'enjeu",
+      "kpis": [
+        {
+          "value": null,
+          "label": null
+        },
+        {
+          "value": null,
+          "label": null,
+          "highlight": true
+        },
+        {
+          "value": null,
+          "label": null
+        }
+      ],
+      "source": null
+    },
+    {
+      "type": "before_after",
+      "title": "Ce qui change pour vos équipes",
+      "before": {
+        "title": "À ÉCRIRE : aujourd'hui",
+        "items": [
+          null,
+          null,
+          null
+        ]
+      },
+      "after": {
+        "title": "À ÉCRIRE : demain",
+        "items": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "number": 2,
+      "title": "Notre proposition"
+    },
+    {
+      "type": "image_text",
+      "title": "À ÉCRIRE : titre-message sur la solution",
+      "heading": null,
+      "items": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "À ÉCRIRE : nos engagements",
+      "cards": [
+        {
+          "title": null,
+          "text": null
+        },
+        {
+          "title": null,
+          "text": null,
+          "highlight": true
+        },
+        {
+          "title": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": 3,
+      "title": "Démarche et planning"
+    },
+    {
+      "type": "steps",
+      "title": "À ÉCRIRE : la démarche en N étapes",
+      "steps": [
+        {
+          "title": "Cadrer",
+          "text": null,
+          "duration": null
+        },
+        {
+          "title": "Paramétrer",
+          "text": null,
+          "duration": null
+        },
+        {
+          "title": "Recetter",
+          "text": null,
+          "duration": null
+        },
+        {
+          "title": "Déployer",
+          "text": null,
+          "duration": null
+        }
+      ]
+    },
+    {
+      "type": "roadmap",
+      "title": "À ÉCRIRE : la date d'ouverture du service",
+      "periods": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lanes": [
+        {
+          "name": "Conception",
+          "bars": []
+        },
+        {
+          "name": "Paramétrage",
+          "bars": []
+        },
+        {
+          "name": "Adoption",
+          "bars": []
+        }
+      ],
+      "milestones": []
+    },
+    {
+      "type": "team",
+      "title": "Votre équipe projet",
+      "members": [
+        {
+          "name": null,
+          "role": "Directeur de projet",
+          "lead": true
+        },
+        {
+          "name": null,
+          "role": "Consultant"
+        },
+        {
+          "name": null,
+          "role": "Sponsor client"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": 4,
+      "title": "Investissement"
+    },
+    {
+      "type": "offer",
+      "title": "À ÉCRIRE : les formules",
+      "offers": [
+        {
+          "name": "Ready",
+          "price": null,
+          "items": []
+        },
+        {
+          "name": "Adapt",
+          "price": null,
+          "items": [],
+          "recommended": true
+        },
+        {
+          "name": "Plateform",
+          "price": null,
+          "items": []
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "À ÉCRIRE : le budget sur 3 ans",
+      "columns": [
+        "Poste",
+        "Année 1",
+        "Année 2",
+        "Année 3"
+      ],
+      "numeric_columns": [
+        1,
+        2,
+        3
+      ],
+      "rows": [
+        [
+          "Licences",
+          null,
+          null,
+          null
+        ],
+        [
+          "Implémentation",
+          null,
+          null,
+          null
+        ],
+        [
+          "Total HT",
+          null,
+          null,
+          null
+        ]
+      ],
+      "total_row": true,
+      "source": null
+    },
+    {
+      "type": "section",
+      "number": 5,
+      "title": "Prochaines étapes"
+    },
+    {
+      "type": "cta",
+      "title": "Ce que nous vous proposons de décider",
+      "asks": [
+        {
+          "what": null,
+          "who": null,
+          "when": null
+        },
+        {
+          "what": null,
+          "who": null,
+          "when": null
+        }
+      ],
+      "next": null,
+      "contact": null
+    },
+    {
+      "type": "closing",
+      "contact": null
+    }
+  ],
+  "title": null,
+  "author": "Triskell Software France"
+}

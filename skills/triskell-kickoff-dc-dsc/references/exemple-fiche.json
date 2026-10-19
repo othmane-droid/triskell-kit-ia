@@ -1,0 +1,57 @@
+{
+  "_comment": "Exemple FICTIF. Toute valeur inconnue reste à null : elle apparaîtra « [à compléter] » et partira dans le registre des manques.",
+  "meta": {"client": "Client Alpha", "offre": "Adapt", "date_kickoff": "19/10/2026", "version": "1.0", "redacteurs": ["DC", "CSM"]},
+  "participants": {
+    "cycle_de_vente": {"DC": "Commercial Triskell", "DSC / AVV": "Avant-vente Triskell", "DSC / Consultant": null},
+    "equipe_projet": {"DSC / Consultant": null, "DSC / Intégration": "Mike et/ou Vincent", "DSC / DP": "Directeur de projet Triskell"},
+    "autres_invites": {"Direction": null, "ADV": "Isabelle P", "Marketing": "Lilian & Isabelle M", "DSC / CSM": "Richard", "DSC / Architecte": "Arnaud", "DSC / Support": "Myriam & Arielle"}
+  },
+  "client": {
+    "identite": {"Secteur d'activité": "Industrie (exemple)", "Activités / Offres": ["Fabrication de composants", "Services de maintenance"], "Chiffres-clés": ["2 400 salariés", "12 sites"], "Localisation": "Lyon et Europe"},
+    "autres": {"Site web": null, "Enjeux stratégiques / vision": ["Piloter 180 projets dans un référentiel unique"], "Éléments contextuels": ["Nouveau PMO créé en 2026"], "Autres": null}
+  },
+  "contexte": {
+    "lead": {"date": "03/03/2026", "contexte": ["Salon PPM, demande de démo"], "cahier_des_charges": "Oui, reçu le 15/04/2026"},
+    "cycle_de_vente": {"raisons_du_choix": ["Gestion de la demande native", "Accélérateur PPM Ready"], "concurrence": ["Deux éditeurs PPM (non nommés)"], "dates_cles": ["Démo 12/05", "Choix 30/09"], "maquette": "Non", "demo_base_demo": "Oui", "gouvernance_presentee": "Oui"},
+    "objectifs_enjeux": ["Remplacer 14 fichiers Excel", "Comité de portefeuille mensuel outillé"],
+    "challenges": ["Adoption par 80 chefs de projet", "Qualité des données budgétaires"],
+    "facteurs_cles_succes": ["Sponsor présent aux comités", "Ouverture avant la clôture budgétaire"]
+  },
+  "interlocuteurs_client": {"Direction Client": "Directeur des opérations", "Sponsor": "Directeur PMO", "Futur(e) administrateur(-trice) Solution": null, "Équipe Projet": ["Responsable outils", "2 chefs de projet"], "DAF": null, "Facturation & Comptabilité": null, "Achats": null, "Juridique": null},
+  "perimetre": {
+    "processus": {
+      "Gestion de portefeuille": {"inclus": true, "priorite": 1},
+      "Gestion de la demande": {"inclus": true, "priorite": 2},
+      "Gestion de projet / programme / récurrent": {"inclus": true, "priorite": 1, "detail": "Méthodologie Phase & Gate"},
+      "Gestion de ressources": {"inclus": false},
+      "Gestion financière / budgétaire": {"inclus": true, "priorite": 2, "detail": "Cycles budgétaires annuels"},
+      "Saisie des temps": {"inclus": false},
+      "Indicateurs, reportings & tableaux de bord": {"inclus": true, "priorite": 1, "detail": null},
+      "Comitologies et décisions": {"inclus": true, "priorite": 2},
+      "Gestion des risques": {"inclus": null}
+    },
+    "decommissionnement": {"existe": true, "commentaire": "Arrêt de l'outil actuel fin T1 2027"},
+    "contrainte_mise_en_production": {"existe": null, "commentaire": null},
+    "echanges_client": {"date": "14/10/2026", "priorites": ["Portefeuille", "Tableaux de bord"], "documents_inputs": ["Cahier des charges v2", "Modèle de fiche projet"], "contraintes_calendaires": ["Ouverture avant le 31/03/2027"]}
+  },
+  "licences": {"Production (avec 1 admin)": 1, "Sandbox": 1, "Avancé": 4, "Contributeur": 25, "Lecture / Demandeur": 10, "Flex": 0, "Hébergeur": "OBS", "POC licences": null},
+  "technique": {"sso": {"mise_en_oeuvre": true, "maintenance": null, "nombre": 1}, "integrations": ["Import budgets depuis l'ERP", "Import des temps"]},
+  "prestations": {"volume_jrsH": 36, "mode": "Forfait", "formation_admin": "1 session", "reprise_donnees": "2 flux d'import", "pack_change": null, "pack_contextualisation": "Non"},
+  "repartition_charges": [{"poste": "Projet ADAPT", "jrsH": 18, "facturable": true}, {"poste": "Direction de projet", "jrsH": 3, "facturable": true}, {"poste": "Accompagnement prise en main", "jrsH": 1, "facturable": false}, {"poste": "2 flux d'import", "jrsH": 14, "facturable": true}],
+  "contractuel": {"duree_engagement": "3 ans", "conditions_renouvellement": "Tacite, révision SYNTEC", "contrat_signe": true, "commande_recue": null},
+  "demarrage": {"reunion_lancement": "05/11/2026", "duree_projet": "5 mois", "ouverture_service": "31/03/2027", "gouvernance": "COPIL mensuel, point projet hebdomadaire", "points_attention": ["Disponibilité limitée du sponsor en décembre"]},
+  "financier": {"licences_users": 40, "budget_implementation_ht": 25000, "synthese": [{"periode": "6 mois", "montant_ht": 9000}, {"periode": "Année 1 (post 6 mois)", "montant_ht": 22000}, {"periode": "Année 2", "montant_ht": 22000}, {"periode": "Année 3", "montant_ht": 22000}], "reference_proposition": null},
+  "facturation": {"licences_a_compter_du": "01/11/2026", "paiement": "Par année à échoir", "echeancier_implementation": [{"pourcentage": 50, "jalon": "Démarrage du projet", "date": "05/11/2026"}, {"pourcentage": 50, "jalon": "Ouverture du service en production", "date": "31/03/2027"}], "lignes_gepil": [{"type": "facturable", "libelle": null, "jrsH": 35, "tjm": null}, {"type": "non facturable", "libelle": "Accompagnement prise en main", "jrsH": 1}], "termes_paiement": null, "sous_traitance": {"existe": false}, "bdc_recu_le": null},
+  "marketing": {"contact_reference": null, "consentements": {"Site web : logo dans la liste de clients": "oui", "Site web : citation de l'interlocuteur principal": null, "Site web : news signature sur le blog et LinkedIn": null, "Supports commerciaux : logo": "oui", "Supports commerciaux : citation de l'interlocuteur principal": null, "Communiqué de presse (grand compte et gros projet)": "non", "Fiche témoignage après mise en production": null, "Témoignage 1to1 auprès de prospects": null, "Témoignage lors d'un événement clients": null, "Témoignage lors d'un événement prospects": null}},
+  "go_projet": {
+    "Équipe projet synchronisée avant le démarrage, dont avec l'avant-vente": {"statut": "oui", "commentaire": null},
+    "Périmètre clairement défini et priorisé": {"statut": null, "commentaire": null},
+    "Planning prévisionnel créé dans GEPIL": {"statut": "non", "commentaire": "Prévu le 22/10"},
+    "Plan de charge prévisionnel renseigné dans GEPIL": {"statut": "non", "commentaire": null},
+    "Contacts clients créés dans HubSpot par le commercial": {"statut": "oui", "commentaire": null},
+    "Répertoire client créé dans « Clients Actifs » avec l'offre commerciale": {"statut": "oui", "commentaire": null},
+    "Contrat signé": {"statut": "oui", "commentaire": null},
+    "Bon de commande reçu": {"statut": null, "commentaire": null},
+    "Toutes les informations nécessaires sont connues et à disposition": {"statut": null, "commentaire": null}
+  }
+}

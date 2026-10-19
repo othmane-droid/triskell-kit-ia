@@ -1,0 +1,121 @@
+{
+  "recette": "business-review",
+  "usage": "Revue trimestrielle avec un client (valeur, adoption, feuille de route)",
+  "duree": "1 h",
+  "public": "Sponsor client, CSM",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Revue trimestrielle",
+      "title": "À ÉCRIRE : titre de la présentation",
+      "date_version": null,
+      "client_name": null
+    },
+    {
+      "type": "summary",
+      "title": "Le trimestre en une page",
+      "messages": [
+        {
+          "title": "À ÉCRIRE : la valeur obtenue",
+          "text": null
+        },
+        {
+          "title": "À ÉCRIRE : l'adoption",
+          "text": null
+        },
+        {
+          "title": "À ÉCRIRE : la prochaine étape",
+          "text": null
+        }
+      ],
+      "decision": {
+        "text": "À ÉCRIRE : ce que nous proposons",
+        "options": []
+      }
+    },
+    {
+      "type": "section",
+      "number": 1,
+      "title": "Valeur et adoption"
+    },
+    {
+      "type": "kpis",
+      "title": "À ÉCRIRE : titre-message sur la valeur",
+      "kpis": [
+        {
+          "value": null,
+          "label": "utilisateurs actifs"
+        },
+        {
+          "value": null,
+          "label": "projets pilotés"
+        },
+        {
+          "value": null,
+          "label": "délai de consolidation",
+          "highlight": true
+        }
+      ],
+      "source": null
+    },
+    {
+      "type": "chart",
+      "title": "À ÉCRIRE : l'évolution de l'adoption",
+      "chart": "line",
+      "categories": [
+        null,
+        null,
+        null
+      ],
+      "series": [
+        {
+          "name": "Utilisateurs actifs",
+          "values": [
+            null,
+            null,
+            null
+          ]
+        }
+      ],
+      "takeaway": null,
+      "source": null
+    },
+    {
+      "type": "section",
+      "number": 2,
+      "title": "Feuille de route"
+    },
+    {
+      "type": "matrix",
+      "title": "Les prochains usages, priorisés",
+      "x_label": "Effort",
+      "y_label": "Valeur",
+      "quadrants": [
+        "Priorité 1",
+        "Projets structurants",
+        "Si le temps le permet",
+        "À écarter"
+      ],
+      "items": [],
+      "reading": []
+    },
+    {
+      "type": "cta",
+      "title": "Ce que nous vous proposons",
+      "asks": [
+        {
+          "what": null,
+          "who": null,
+          "when": null
+        }
+      ],
+      "next": null
+    },
+    {
+      "type": "closing",
+      "contact": null
+    }
+  ],
+  "title": null,
+  "author": "Triskell Software France"
+}

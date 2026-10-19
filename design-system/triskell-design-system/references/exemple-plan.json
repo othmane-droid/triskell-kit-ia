@@ -1,0 +1,53 @@
+{
+  "title": "Piloter le portefeuille projets de Client Alpha",
+  "author": "Triskell Software France",
+  "_comment": "Exemple FICTIF qui utilise tous les composants. Aucun chiffre ni nom réel.",
+  "slides": [
+    {"type": "cover", "kicker": "Proposition d'accompagnement", "title": "Piloter le portefeuille projets de Client Alpha", "date_version": "Octobre 2026 – Version 1.0", "client_name": "Client Alpha"},
+    {"type": "summary", "title": "L'essentiel en une page", "messages": [
+      {"title": "Le portefeuille est piloté dans 14 fichiers différents", "text": "Les arbitrages du comité se font sur des données de 3 à 6 semaines."},
+      {"title": "Un référentiel unique en 5 mois", "text": "Accélérateur PPM Ready adapté à votre méthode Phase & Gate."},
+      {"title": "Un comité mensuel outillé dès l'ouverture", "text": "Tableaux de bord prêts pour la clôture budgétaire de mars."}
+    ], "decision": {"text": "Valider le démarrage le 5 novembre", "options": ["Formule Adapt recommandée", "Kick-off client sous 3 semaines"]}},
+    {"type": "agenda", "items": [{"label": "Votre situation", "time": "10 min"}, {"label": "Notre proposition", "time": "15 min"}, {"label": "Démarche et planning", "time": "10 min"}, {"label": "Investissement", "time": "10 min"}, {"label": "Prochaines étapes", "time": "5 min"}]},
+    {"type": "section", "number": 1, "title": "Votre situation", "teaser": "Ce que nous avons compris de vos échanges"},
+    {"type": "statement", "title": "Le constat", "text": "Vos comités arbitrent **180 projets** avec des données qui ont un mois de retard.", "support": "C'est le point qui revient dans chacun de nos 4 entretiens.", "source": "entretiens de découverte, septembre 2026 (exemple fictif)"},
+    {"type": "kpis", "title": "Quatre chiffres résument l'enjeu", "kpis": [
+      {"value": "180", "label": "projets actifs", "note": "répartis sur 6 directions"},
+      {"value": "14", "label": "fichiers de suivi", "note": "sans référentiel commun", "highlight": true},
+      {"value": "4 sem.", "label": "de délai de consolidation", "note": "avant chaque comité"},
+      {"value": "80", "label": "chefs de projet", "note": "à embarquer"}
+    ], "takeaway": "Le coût n'est pas l'outil : c'est le temps de consolidation et les décisions prises en retard.", "source": "données client, exemple fictif"},
+    {"type": "chart", "title": "Le temps de consolidation a doublé en trois ans", "chart": "column", "categories": ["2023", "2024", "2025", "2026"], "series": [{"name": "Jours de consolidation par trimestre", "values": [6, 8, 10, 12]}], "highlight_category": "2026", "key_figure": "×2", "takeaway": "La charge de reporting croît avec le portefeuille", "takeaway_detail": "Sans référentiel, chaque nouveau projet ajoute du travail manuel.", "source": "estimation PMO, exemple fictif"},
+    {"type": "before_after", "title": "Ce qui change pour vos équipes", "before": {"title": "Un pilotage dispersé", "items": ["14 fichiers à consolider à la main", "Des chiffres différents selon les directions", "Des arbitrages sur des données datées"]}, "after": {"title": "Un pilotage partagé", "items": ["Un référentiel unique, à jour en continu", "Les mêmes indicateurs pour tous", "Un comité qui décide sur la donnée du jour"]}},
+    {"type": "section", "number": 2, "title": "Notre proposition"},
+    {"type": "image_text", "title": "Une solution pensée pour le PMO", "image": "reunion-equipe", "kicker": "Triskell PPM", "heading": "Le portefeuille, la demande et les budgets au même endroit", "items": ["Gestion de la demande native", "Méthodologie Phase & Gate paramétrable", "Tableaux de bord prêts pour le comité"]},
+    {"type": "cards", "title": "Trois engagements pour réussir le projet", "cards": [
+      {"kicker": "Engagement 1", "title": "Partir de votre méthode", "text": "Vos jalons, vos instances, votre vocabulaire."},
+      {"kicker": "Engagement 2", "title": "Ouvrir avant la clôture budgétaire", "text": "Service ouvert le 31 mars, avec les budgets 2027.", "highlight": true, "badge": "Votre priorité"},
+      {"kicker": "Engagement 3", "title": "Embarquer les 80 chefs de projet", "text": "Formation, ambassadeurs, suivi de l'adoption."}
+    ]},
+    {"type": "matrix", "title": "Les cas d'usage priorisés avec vous", "x_label": "Effort de mise en œuvre", "y_label": "Valeur pour le comité", "quadrants": ["Priorité 1", "Projets structurants", "Si le temps le permet", "À écarter"], "highlight_quadrant": 0, "items": [
+      {"label": "Tableau de bord du comité", "x": 0.3, "y": 0.85, "highlight": true}, {"label": "Fiches projet", "x": 0.15, "y": 0.62}, {"label": "Gestion de la demande", "x": 0.72, "y": 0.75}, {"label": "Saisie des temps", "x": 0.8, "y": 0.3}], "reading": ["Le tableau de bord du comité : le plus de valeur pour un effort limité", "Les fiches projet accélèrent l'adoption", "La gestion de la demande se prépare dès la conception", "La saisie des temps est reportée en phase 2"]},
+    {"type": "section", "number": 3, "title": "Démarche et planning"},
+    {"type": "steps", "title": "Une démarche en cinq étapes", "steps": [
+      {"title": "Cadrer", "text": "Ateliers de conception", "duration": "3 semaines"}, {"title": "Paramétrer", "text": "Configuration et flux", "duration": "6 semaines", "highlight": true}, {"title": "Reprendre", "text": "Import des 180 projets", "duration": "3 semaines"}, {"title": "Recetter", "text": "Tests avec le PMO", "duration": "3 semaines"}, {"title": "Déployer", "text": "Formation et ouverture", "duration": "4 semaines"}]},
+    {"type": "roadmap", "title": "Une ouverture du service le 31 mars", "periods": ["Nov.", "Déc.", "Janv.", "Févr.", "Mars", "Avr."], "today": 0, "lanes": [
+      {"name": "Conception", "bars": [{"start": 0, "end": 1, "label": "Ateliers"}]}, {"name": "Paramétrage", "bars": [{"start": 1, "end": 2.6, "label": "Configuration"}]}, {"name": "Données", "bars": [{"start": 2, "end": 3.2, "label": "Reprise et flux"}]}, {"name": "Adoption", "bars": [{"start": 3, "end": 5, "label": "Formation et ambassadeurs", "highlight": true}]}], "milestones": [{"at": 0.1, "label": "Kick-off"}, {"at": 5, "label": "Ouverture"}]},
+    {"type": "timeline", "title": "Six jalons pour piloter le projet", "milestones": [{"date": "05/11", "label": "Kick-off client", "done": true}, {"date": "26/11", "label": "Conception validée", "current": true}, {"date": "15/01", "label": "Paramétrage terminé"}, {"date": "05/02", "label": "Données reprises"}, {"date": "26/02", "label": "Recette validée"}, {"date": "31/03", "label": "Ouverture du service"}]},
+    {"type": "phases", "title": "Quatre phases, un livrable à chaque étape", "phases": [{"name": "Cadrage", "dates": "Novembre", "items": ["Kick-off", "Ateliers"], "deliverable": "dossier de conception"}, {"name": "Paramétrage", "dates": "Déc. – Janv.", "items": ["Configuration", "Flux d'import"], "current": true, "deliverable": "plateforme paramétrée"}, {"name": "Recette", "dates": "Février", "items": ["Tests", "Corrections"], "deliverable": "PV de recette"}, {"name": "Déploiement", "dates": "Mars", "items": ["Formation", "Ouverture"], "deliverable": "service ouvert"}]},
+    {"type": "team", "title": "Une équipe dédiée, des deux côtés", "members": [{"name": "Chef de projet Triskell", "role": "Directeur de projet", "text": "Pilote le planning et la gouvernance.", "lead": true}, {"name": "Consultant PPM", "role": "Paramétrage", "text": "Traduit votre méthode dans la solution."}, {"name": "Architecte", "role": "Intégrations", "text": "SSO et flux d'import."}, {"name": "Directeur PMO", "role": "Sponsor client", "text": "Arbitre et préside le COPIL."}]},
+    {"type": "section", "number": 4, "title": "Investissement"},
+    {"type": "offer", "title": "Trois formules selon votre ambition", "offers": [
+      {"name": "Ready", "price": "À partir de 15 k€", "period": "implémentation HT", "pitch": "Le standard Triskell, prêt à l'emploi.", "items": ["Paramétrage standard", "Formation administrateur"]},
+      {"name": "Adapt", "price": "25 k€", "period": "implémentation HT", "pitch": "Le standard adapté à votre méthode.", "items": ["Méthode Phase & Gate", "2 flux d'import", "Formation et ambassadeurs"], "recommended": true},
+      {"name": "Plateform", "price": "Sur devis", "period": "", "pitch": "Une plateforme sur mesure.", "items": ["Processus spécifiques", "Intégrations multiples"]}], "footnote": "Montants fictifs pour l'exemple."},
+    {"type": "table", "title": "Un budget maîtrisé sur trois ans", "columns": ["Poste", "Année 1", "Année 2", "Année 3"], "numeric_columns": [1, 2, 3], "rows": [["Licences (40 utilisateurs)", "22 000 €", "22 000 €", "22 000 €"], ["Implémentation Adapt", "25 000 €", "—", "—"], ["Total HT", "47 000 €", "22 000 €", "22 000 €"]], "total_row": true, "source": "proposition commerciale, exemple fictif"},
+    {"type": "quote", "text": "Nous voulons arriver au comité de mars avec un seul chiffre par projet, le même pour tous.", "author": "Directeur PMO", "role": "Client Alpha (exemple fictif)"},
+    {"type": "section", "number": 5, "title": "Prochaines étapes"},
+    {"type": "checklist", "title": "Ce qu'il reste à réunir pour démarrer", "items": [{"question": "Proposition validée par le sponsor", "status": "oui", "owner": "Client", "critical": true}, {"question": "Bon de commande émis", "status": null, "owner": "Achats", "critical": true}, {"question": "Administrateur de la solution désigné", "status": "non", "owner": "Client", "comment": "Deux candidats pressentis"}, {"question": "Accès SSO validés par la DSI", "status": null, "owner": "DSI"}]},
+    {"type": "actions", "title": "Les actions des trois prochaines semaines", "teams": [{"team": "Client Alpha", "actions": [{"action": "Émettre le bon de commande", "owner": "Achats", "due": "25/10"}, {"action": "Désigner l'administrateur", "owner": "Sponsor", "due": "29/10"}]}, {"team": "Triskell", "actions": [{"action": "Envoyer le planning détaillé", "owner": "DP", "due": "28/10"}, {"action": "Préparer le kick-off client", "owner": "DP", "due": "04/11"}]}]},
+    {"type": "cta", "title": "Ce que nous vous proposons de décider aujourd'hui", "asks": [{"what": "Valider la formule Adapt", "who": "Sponsor", "when": "aujourd'hui"}, {"what": "Émettre le bon de commande", "who": "Achats", "when": "sous 10 jours"}, {"what": "Fixer la date du kick-off", "who": "PMO", "when": "cette semaine"}], "next": "Kick-off le 5 novembre", "contact": "Votre contact : chef de projet Triskell"},
+    {"type": "closing", "contact": "Merci pour votre confiance", "details": ["Triskell Software France"]}
+  ]
+}

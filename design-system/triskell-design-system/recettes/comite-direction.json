@@ -1,0 +1,131 @@
+{
+  "recette": "comite-direction",
+  "usage": "Note de décision interne pour la direction Triskell",
+  "duree": "20 min",
+  "public": "Comité de direction",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Comité de direction",
+      "title": "À ÉCRIRE : titre de la présentation",
+      "date_version": null,
+      "client_name": null
+    },
+    {
+      "type": "summary",
+      "title": "La décision en une page",
+      "messages": [
+        {
+          "title": "À ÉCRIRE : le contexte",
+          "text": null
+        },
+        {
+          "title": "À ÉCRIRE : l'analyse",
+          "text": null
+        },
+        {
+          "title": "À ÉCRIRE : la recommandation",
+          "text": null
+        }
+      ],
+      "decision": {
+        "text": "À ÉCRIRE : la décision demandée",
+        "options": []
+      }
+    },
+    {
+      "type": "chart",
+      "title": "À ÉCRIRE : le chiffre qui justifie la décision",
+      "chart": "column",
+      "categories": [
+        null,
+        null,
+        null
+      ],
+      "series": [
+        {
+          "name": null,
+          "values": [
+            null,
+            null,
+            null
+          ]
+        }
+      ],
+      "takeaway": null,
+      "source": null
+    },
+    {
+      "type": "cards",
+      "title": "Les options étudiées",
+      "cards": [
+        {
+          "kicker": "Option A",
+          "title": null,
+          "items": []
+        },
+        {
+          "kicker": "Option B",
+          "title": null,
+          "items": [],
+          "highlight": true,
+          "badge": "Recommandée"
+        },
+        {
+          "kicker": "Option C",
+          "title": null,
+          "items": []
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Impacts et risques par option",
+      "columns": [
+        "Critère",
+        "Option A",
+        "Option B",
+        "Option C"
+      ],
+      "rows": [
+        [
+          "Coût",
+          null,
+          null,
+          null
+        ],
+        [
+          "Délai",
+          null,
+          null,
+          null
+        ],
+        [
+          "Risque",
+          null,
+          null,
+          null
+        ]
+      ],
+      "highlight_row": null
+    },
+    {
+      "type": "cta",
+      "title": "Ce que nous demandons au comité",
+      "asks": [
+        {
+          "what": null,
+          "who": null,
+          "when": null
+        }
+      ],
+      "next": null
+    },
+    {
+      "type": "closing",
+      "contact": null
+    }
+  ],
+  "title": null,
+  "author": "Triskell Software France"
+}

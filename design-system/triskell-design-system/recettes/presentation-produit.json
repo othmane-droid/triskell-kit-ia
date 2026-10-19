@@ -1,0 +1,125 @@
+{
+  "recette": "presentation-produit",
+  "usage": "Présentation de la solution ou webinar",
+  "duree": "30 min",
+  "public": "Prospects, clients, événement",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Présentation",
+      "title": "À ÉCRIRE : titre de la présentation",
+      "date_version": null,
+      "client_name": null
+    },
+    {
+      "type": "statement",
+      "title": "Le constat",
+      "text": "À ÉCRIRE : le problème du marché, **un mot** en orange",
+      "support": null
+    },
+    {
+      "type": "before_after",
+      "title": "À ÉCRIRE : ce que Triskell change",
+      "before": {
+        "title": "Sans Triskell",
+        "items": [
+          null,
+          null,
+          null
+        ]
+      },
+      "after": {
+        "title": "Avec Triskell",
+        "items": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "section",
+      "number": 1,
+      "title": "La solution"
+    },
+    {
+      "type": "cards",
+      "title": "À ÉCRIRE : trois capacités clés",
+      "cards": [
+        {
+          "title": null,
+          "text": null
+        },
+        {
+          "title": null,
+          "text": null
+        },
+        {
+          "title": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "image_text",
+      "title": "À ÉCRIRE : la solution en situation",
+      "heading": null,
+      "items": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "type": "section",
+      "number": 2,
+      "title": "Ils l'utilisent"
+    },
+    {
+      "type": "quote",
+      "text": null,
+      "author": null,
+      "role": null,
+      "_guide": "Uniquement un témoignage validé par écrit par le client (voir fiche référence)."
+    },
+    {
+      "type": "kpis",
+      "title": "À ÉCRIRE : les résultats obtenus",
+      "kpis": [
+        {
+          "value": null,
+          "label": null
+        },
+        {
+          "value": null,
+          "label": null,
+          "highlight": true
+        },
+        {
+          "value": null,
+          "label": null
+        }
+      ],
+      "source": null
+    },
+    {
+      "type": "cta",
+      "title": "Pour aller plus loin",
+      "asks": [
+        {
+          "what": "Une démonstration sur vos données",
+          "who": null,
+          "when": null
+        }
+      ],
+      "next": null,
+      "contact": null
+    },
+    {
+      "type": "closing",
+      "contact": null
+    }
+  ],
+  "title": null,
+  "author": "Triskell Software France"
+}

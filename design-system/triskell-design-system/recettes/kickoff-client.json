@@ -1,0 +1,231 @@
+{
+  "recette": "kickoff-client",
+  "usage": "Réunion de lancement avec le client",
+  "duree": "1 h 30",
+  "public": "Client : sponsor, équipe projet, futur administrateur",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "Réunion de lancement",
+      "title": "À ÉCRIRE : titre de la présentation",
+      "date_version": null,
+      "client_name": null
+    },
+    {
+      "type": "agenda",
+      "items": [
+        "Objectifs du projet",
+        "Périmètre",
+        "Démarche et planning",
+        "Organisation et gouvernance",
+        "Prochaines étapes"
+      ]
+    },
+    {
+      "type": "section",
+      "number": 1,
+      "title": "Objectifs du projet"
+    },
+    {
+      "type": "cards",
+      "title": "À ÉCRIRE : les objectifs du projet",
+      "cards": [
+        {
+          "title": null,
+          "text": null
+        },
+        {
+          "title": null,
+          "text": null
+        },
+        {
+          "title": null,
+          "text": null
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "Facteurs-clés de succès",
+      "groups": [
+        {
+          "heading": "Côté client",
+          "items": [
+            null,
+            null
+          ]
+        },
+        {
+          "heading": "Côté Triskell",
+          "items": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": 2,
+      "title": "Périmètre"
+    },
+    {
+      "type": "table",
+      "title": "À ÉCRIRE : le périmètre retenu",
+      "columns": [
+        "Processus",
+        "Inclus",
+        "Priorité"
+      ],
+      "rows": [
+        [
+          null,
+          null,
+          null
+        ]
+      ],
+      "header_color": "vert"
+    },
+    {
+      "type": "section",
+      "number": 3,
+      "title": "Démarche et planning"
+    },
+    {
+      "type": "phases",
+      "title": "À ÉCRIRE : les phases et leurs livrables",
+      "phases": [
+        {
+          "name": "Cadrage",
+          "dates": null,
+          "items": [],
+          "current": true
+        },
+        {
+          "name": "Paramétrage",
+          "dates": null,
+          "items": []
+        },
+        {
+          "name": "Recette",
+          "dates": null,
+          "items": []
+        },
+        {
+          "name": "Déploiement",
+          "dates": null,
+          "items": []
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "À ÉCRIRE : les jalons clés",
+      "milestones": [
+        {
+          "date": null,
+          "label": "Kick-off",
+          "current": true
+        },
+        {
+          "date": null,
+          "label": "Conception validée"
+        },
+        {
+          "date": null,
+          "label": "Recette"
+        },
+        {
+          "date": null,
+          "label": "Ouverture du service"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "number": 4,
+      "title": "Organisation et gouvernance"
+    },
+    {
+      "type": "team",
+      "title": "L'équipe projet",
+      "members": [
+        {
+          "name": null,
+          "role": "Directeur de projet Triskell",
+          "lead": true
+        },
+        {
+          "name": null,
+          "role": "Chef de projet client"
+        },
+        {
+          "name": null,
+          "role": "Futur administrateur"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "La gouvernance du projet",
+      "columns": [
+        "Instance",
+        "Participants",
+        "Fréquence",
+        "Objet"
+      ],
+      "rows": [
+        [
+          "COPIL",
+          null,
+          null,
+          null
+        ],
+        [
+          "Point projet",
+          null,
+          null,
+          null
+        ]
+      ],
+      "header_color": "vert"
+    },
+    {
+      "type": "section",
+      "number": 5,
+      "title": "Prochaines étapes"
+    },
+    {
+      "type": "actions",
+      "title": "Les actions des prochaines semaines",
+      "teams": [
+        {
+          "team": "Client",
+          "actions": [
+            {
+              "action": null,
+              "owner": null,
+              "due": null
+            }
+          ]
+        },
+        {
+          "team": "Triskell",
+          "actions": [
+            {
+              "action": null,
+              "owner": null,
+              "due": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "closing",
+      "contact": null
+    }
+  ],
+  "title": null,
+  "author": "Triskell Software France"
+}
