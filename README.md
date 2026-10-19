@@ -4,6 +4,7 @@ Ce dépôt réunit les outils remis à Triskell Software France pendant la forma
 
 - **1 design system** qui produit des présentations PowerPoint dans le modèle officiel Triskell et contrôle qu'un support respecte la charte ;
 - **13 skills** pour les tâches qui reviennent chaque semaine, choisis à partir de vos réponses au sondage (synthèses, comptes rendus, présentations, mails, Excel, veille, support, avant-vente, traduction) ;
+- **une bibliothèque de 12 prompts** prêts à copier (`bibliotheque-prompts-triskell.md` et `.pdf`) ;
 - **des fichiers de test fictifs** et **le résultat obtenu sur chacun**, pour savoir à quoi vous attendre avant d'utiliser vos propres documents.
 
 Chaque skill suit le format standard `SKILL.md` : un dossier qui contient les instructions et ses ressources (modèles, grilles, scripts, exemple). Le même dossier fonctionne dans ChatGPT Business et dans Claude.
